@@ -5,7 +5,7 @@ import { useEffect, useRef } from 'react'
 
 const MAIN_WEBSITE_URL = 'https://probet13.com/user/register.php'
 const IMAGE_URL = '/images/banner.png'
-const REDIRECT_DELAY_MS = 4000
+const REDIRECT_DELAY_MS = 2000
 
 export default function Page() {
   const hasNavigated = useRef(false)
